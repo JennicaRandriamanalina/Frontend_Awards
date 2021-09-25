@@ -1,0 +1,91 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+body{
+	margin: 0 0 0 0;
+	background-color: black;
+	color: white;
+}
+
+h1,h2,h3,h4{
+	color: var(--title-color);
+	font-weight: var(--font-semi-bold);
+}
+
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/*======================= section 2 ============================*/
+.section2{
+    display: flex;
+    flex-direction: row;
+}
+
+.section2_container1{
+    margin: 10%;
+    width: 50%;
+}
+
+.cont1_title1{
+    margin-left: 5rem;
+}
+
+
+.cont2_title2{
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+
+
+
+.section2_description{
+    margin-bottom: 3rem;
+    margin-left: 50%;
+}
+
+
+.section2_container1 img{
+    max-width: 100%;
+    height: auto;
+    margin-right: 20%;
+}
+
+
+.section2_container2{
+    margin: 10%;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
