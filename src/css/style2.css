@@ -64,9 +64,9 @@ img{
 
 
 .section2_container1 img{
-    max-width: 100%;
+    position: relative;
+    width: 80%;
     height: auto;
-    margin-right: 20%;
 }
 
 
@@ -75,7 +75,29 @@ img{
     width: 50%;
 }
 
+@media only screen and (max-width: 600px) {
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .section2_container1{
+        width: 80%;
+    }
+
+    .section2_description{
+        margin-left: 20%;
+    }
+
+    .cont1_title1{
+        margin-left: 3rem;
+    }
+    
+    
+    .cont2_title2{
+        margin-left: 3rem;
+    }
+}
 
 
 
