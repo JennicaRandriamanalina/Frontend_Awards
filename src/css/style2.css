@@ -1,52 +1,58 @@
-/* .main{
+ .main{
     display: flex;
     flex-direction: row;
+    overflow-x: scroll;
+    
 }
 .leftc{
     display: flex;
     flex-direction: row;
-    height: 300px;
     cursor: pointer;
+    
 }
 .bur{
     width: 50%;
 }
 .bourge{
-    width: 300px;
-    height: 300px;
-
+    object-fit: cover;
+    width: 800px;
 }
 .animateim{
     animation: grow 3s infinite forwards;
 }
 .inner{
-    max-width: 300px;
-    max-height: 300px;
-    overflow: hidden;
+    width: 300px;
+    height: 500px;
+    object-fit: cover
+    
 }
 .minime {
-    max-width: 50%
+    padding: 50px;
+    max-width: 50%;
+    text-justify: center;
+}
+.mylink{
+    padding: 20px
 }
 .txtlef{
     display: flex;
     flex-direction: row;
     margin: 5px;
-    margin-bottom: 40px;
 }
 a{
     text-decoration:none;
-    color: white
+    color: white !important;
+    padding: 6px
 }
-.main{
-    overflow: hidden
+a:hover{
+    text-decoration: none !important;
 }
+
 .txtlef a{
     padding: 30px;
     
 }
-.move{
-    margin-left: 30px
-}
+
 @keyframes grow{
      0% {
         transform: scale(1)
@@ -57,4 +63,86 @@ a{
      100%{
         transform: scale(1)
     }
-} */
+} 
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+body{
+	margin: 0 0 0 0;
+	background-color: black !important;
+	color: white !important;
+}
+
+ul{
+	list-style: none;
+}
+
+
+
+/*======================= section 2 ============================*/
+.section2{
+    display: flex;
+    flex-direction: row;
+}
+
+.section2_container1{
+    margin: 10%;
+    width: 50%;
+}
+
+.cont1_title1{
+    margin-left: 5rem;
+}
+
+
+.cont2_title2{
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+
+
+
+.section2_description{
+    margin-bottom: 3rem;
+    margin-left: 50%;
+}
+
+
+.section2_container1 img{
+    max-width: 100%;
+    height: auto;
+    margin-right: 20%;
+}
+
+
+.section2_container2{
+    margin: 10%;
+    width: 50%;
+}
+
+
+.boxx{
+    width: 400px
+}
+
+
+@media only screen and (max-width: 600px){
+
+}
+
+
+
+
+
+
+
+
+
